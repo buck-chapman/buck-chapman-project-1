@@ -1,6 +1,15 @@
 /* Enter your Styles below! */
 
-body { 
+header{
+background-image: url('../images/header-background.svg');
+background-size: 100% auto;
+background-repeat: no-repeat;
+height:200px;
+}
+
+
+
+body {
 	font-family: Helvetica, sans-serif;
 	font-size: 16px;
 	 }
@@ -11,10 +20,11 @@ h1, h2, h3, h4 {
 
 h1 {
 	font-size: 48px;
+	text-align: center;
 }
 
 h2 {
-	font-size: 36px;
+	font-size: 24px;
 }
 
 h3 {
@@ -34,23 +44,36 @@ header {margin-bottom: 20px;}
 /* ensures that your images stretch the width of their containers */
 img { width: 100%; }
 
-a { 
+a {
 	color: red;
 	text-decoration: none;
 	 }
 a:hover { color: black; }
 
-.grid {
+.top-grid {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-gap: 40px;
-	width: 60%;
+	grid-template-columns: repeat(4,1fr);
+	grid-gap: 20px;
+	width: 100%;
+	margin: auto;
+}
+.top-grid div{
+	text-align: center;
+
+}
+
+
+.main-grid {
+	display: grid;
+	grid-template-columns: 30% 40% 30%;
+	grid-gap: 20px;
+	width: 50%;
 	margin: auto;
 }
 
-.grid div {
-	background-color: #ccc;
-	padding: 20px;
+.main-grid div {
+	background-color: lightblue;
+	padding: 10px;
 }
 
 @media only screen and (min-width:768px) {
