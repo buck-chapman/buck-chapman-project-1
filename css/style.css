@@ -2,7 +2,7 @@
 
 header{
 background-image: url('../images/header-background.svg');
-background-size: 100% auto;
+background-size: 100% ;
 background-repeat: no-repeat;
 height:200px;
 }
@@ -10,12 +10,13 @@ height:200px;
 
 
 body {
-	font-family: Helvetica, sans-serif;
+	font-family: helvetica, sans-serif;
 	font-size: 16px;
 	 }
 
 h1, h2, h3, h4 {
-	font-family: Helvetica, sans-serif;
+	font-family: Hobostd, sans-serif;
+	padding-top: 50px;
 }
 
 h1 {
@@ -36,7 +37,7 @@ h4 {
 
 blockquote {
 	margin: 20px 60px;
-	font-family: Helvetica, sans-serif;
+	font-family: Hobostd, sans-serif;
 }
 
 header {margin-bottom: 20px;}
@@ -59,20 +60,18 @@ a:hover { color: black; }
 }
 .top-grid div{
 	text-align: center;
-
 }
-
 
 .main-grid {
 	display: grid;
 	grid-template-columns: 30% 40% 30%;
-	grid-gap: 20px;
-	width: 50%;
+	grid-gap: 10px;
+	width: 70%;
 	margin: auto;
 }
 
 .main-grid div {
-	background-color: lightblue;
+	background-color: white;
 	padding: 10px;
 }
 
