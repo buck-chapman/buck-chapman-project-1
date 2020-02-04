@@ -64,11 +64,14 @@ a:hover { color: red; }
 }
 .top-grid div{
 	border: 2px solid;
+	border-color: white;
 	padding: 20px;
 	border-radius: 50%;
 	text-align: center;
-
 }
+
+.top-grid:hover {
+    border:5px solid red;}
 
 .main-grid {
 	display: grid;
