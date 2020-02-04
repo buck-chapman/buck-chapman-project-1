@@ -20,11 +20,11 @@ body {
 
 h1, h2, h3, h4 {
 	font-family: Hobostd, sans-serif;
-	padding-top: 50px;
+	padding-top: 35px;
 }
 
 h1 {
-	font-size: 48px;
+	font-size: 64px;
 	text-align: center;
 }
 
@@ -63,11 +63,10 @@ a:hover { color: red; }
 	margin: auto;
 }
 .top-grid div{
+	border: 2px solid;
+	padding: 20px;
+	border-radius: 50%;
 	text-align: center;
-	height: 50px;
-	width: 70%;
-	background-color: white;
-	border-radius: 100%;
 
 }
 
@@ -95,7 +94,7 @@ img {
 .box{
 	background-color: lightblue;
 	width: 100%;
-	height: 100%;
+	height: 100px;
 }
 
 .linebreak{
