@@ -5,13 +5,17 @@
 
 
 header{
-background-image: url('../images/header-background.svg');
-background-size: 100% ;
+background-image: url('../images/header.svg');
+background-image: height: 130px;
+background-size:cover ;
 background-repeat: no-repeat;
 height:200px;
+
 }
 
+li{list-style-type: none;}
 
+hr{ border-top: 2px solid red;}
 
 body {
 	font-family: helvetica, sans-serif;
@@ -19,7 +23,8 @@ body {
 	 }
 
 h1, h2, h3, h4 {
-	font-family: Hobostd, sans-serif;
+	font-family: Helvetica;
+	font-weight: bold;
 	padding-top: 35px;
 }
 
@@ -41,7 +46,7 @@ h4 {
 
 blockquote {
 	margin: 20px 60px;
-	font-family: Hobostd, sans-serif;
+	font-family: helvetica, sans-serif;
 }
 
 header {margin-bottom: 20px;}
@@ -59,19 +64,19 @@ a:hover { color: red; }
 	display: grid;
 	grid-template-columns: repeat(4,1fr);
 	grid-gap: 20px;
-	width: 100%;
+	width: 75%;
 	margin: auto;
 }
 .top-grid div{
 	border: 2px solid;
-	border-color: white;
-	padding: 20px;
+	border-color: lightblue;
+	padding: 25px;
 	border-radius: 50%;
 	text-align: center;
 }
 
-.top-grid:hover {
-    border:5px solid red;}
+.top-grid div:hover {
+    border:2px solid red;}
 
 .main-grid {
 	display: grid;
@@ -85,7 +90,12 @@ a:hover { color: red; }
 .main-grid div {
 	background-color: white;
 	padding: 10px;
+
 }
+
+
+
+
 
 img {
 	display: block;
@@ -101,7 +111,7 @@ img {
 }
 
 .linebreak{
-	background-color: orange;
+	background-color: red;
 	height: 3px;
 	width: 100%;
 }
