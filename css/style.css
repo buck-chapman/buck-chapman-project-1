@@ -38,6 +38,8 @@ h1 {
 	font-size: 64px;
 	text-align: center;
 	font-weight: bold;
+	border: 2px black;
+	padding: 25px
 }
 
 h2 {
